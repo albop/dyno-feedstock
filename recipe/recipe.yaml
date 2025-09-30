@@ -10,7 +10,7 @@ source:
   sha256: 19f465f1f92b290002abdc45ea5b6d6be3cdd21ed10f98233bda26b1781c3809
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python -m pip install . --no-deps -vv
 
@@ -27,6 +27,8 @@ requirements:
     - numpy
     - pandas
     - interegular
+    - vega_datasets
+    - tempita
     - sympy
     - altair
     - rich
